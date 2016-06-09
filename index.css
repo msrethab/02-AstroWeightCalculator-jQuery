@@ -1,0 +1,57 @@
+
+
+body {
+    font: normal 1.25em Verdana, Arial, sans-serif;
+    background-color: #fff;
+  	color: #333;
+  	box-sizing: border-box;
+}	
+
+/* Styling the Header */
+
+header {
+	background-color: #4CAF50;
+	color: #fff;
+ 	float: left;
+  	margin: 0 0 30px 0;
+  	padding: 5px 0 0 0;
+ 	width: 100%;
+ 	text-align: center;
+}
+
+/* Styling the input fields */
+
+.row {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* Styling the button */
+
+#button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    margin: 22px 3%;  
+    display: inline-block
+    float: right;
+    transition-duration: .4;
+} 
+
+#button:hover {
+	background-color: #32673f; /* Dark Green */
+}
+
+/* Styling the Answer */
+
+#answer {
+	text-align: center;
+	display: block;
+	margin: 2.5%;
+	padding: 15px 32px;
+	width: 95%;
+	font-size: 1.25em;
+	font-weight: bold;
+	background-color: #fff;
+	float: left;
+}
