@@ -9,6 +9,7 @@ Version 1.0.0
 -Basic Bootstrap text form and button stylings applied with light responsive implementation
 
 
+
 Version 1.0.1
 
 -Copyright footer added
@@ -16,3 +17,11 @@ Version 1.0.1
 -Additional comments added to improve readability
 
 -Overall code format cleaned up
+
+
+Version 1.0.2
+
+- Removed Header
+
+- Changed input selector layout to match mock-up more closely
+
