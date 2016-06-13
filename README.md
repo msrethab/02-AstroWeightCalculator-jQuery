@@ -19,9 +19,17 @@ Version 1.0.1
 -Overall code format cleaned up
 
 
+
 Version 1.0.2
 
-- Removed Header
+-Removed Header
 
-- Changed input selector layout to match mock-up more closely
+-Changed input selector layout to match mock-up more closely
 
+
+
+Version 1.0.3
+
+-Changed for loop iteration into a jQuery each method
+
+-Changed toFixed to Math.round method for more accurate rounding
