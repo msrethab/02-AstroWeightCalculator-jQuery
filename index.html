@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+
 	<title>Astro Weight Calculator ver 2.0</title>
 	
-
 	<!-- Importing jquery -->
 
 	<script src="jquery-1.12.4.min.js"></script>
@@ -29,7 +29,9 @@
 
 </head>
 <body>
-	<!-- Creating input forms for weight, planet weight as well as submission button, responsiveness added for mobile and desktop screens-->
+
+	<!-- Creating input forms for weight, planet weight as well as submission button-->
+
 	<div class="container">
 		<div class="row">
 		    <div id= "inputWeight" class="form-group col-xs-5 col-md-5">
@@ -45,11 +47,13 @@
 		       <button type="button" class="btn btn-primary" id="button">Calculate</button>
 		    </div>
 		</div>
+
+		<!-- Outputting a result -->
+	
+		<p id="answer"></p>
+
 	</div>
 
-	<!-- Outputting a result -->
-	
-	<p id="answer"></p>
 
 	<!-- Create a copyright footer -->
 
@@ -58,6 +62,7 @@
 	</footer>
 
 	<!-- Running external javaScript with jQuery elements -->
+
 	<script src="index.js"></script>
 </body>
 </html>

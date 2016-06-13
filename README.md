@@ -33,3 +33,11 @@ Version 1.0.3
 -Changed for loop iteration into a jQuery each method
 
 -Changed toFixed to Math.round method for more accurate rounding
+
+
+
+Version 1.0.4
+
+-Added and cleaned up comments
+
+-Moved output text into container div for better layout look

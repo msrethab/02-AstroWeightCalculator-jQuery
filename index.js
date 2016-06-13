@@ -25,6 +25,7 @@ $(function(){
     	planetSelector.append($("<option />").val(planets[i][1]).html(planets[i][0]));
 	});
 
+	//defining button functionality with on click event
 
 	$('#button').on('click', function(){
 
@@ -34,20 +35,18 @@ $(function(){
 		var gravity = $('#planetSelector').val();
 		var myPlanet = $('#planetSelector option:selected').html();
 
-		// Transforming input forms
+		// Transforming input forms and rounding value
 
 		var myNewWeight = myWeight * gravity;
 		myNewWeight = Math.round(myNewWeight *100) / 100;
 
-		//Outputting grammatically correct answer
+		//Outputting grammatically correct answer by adding "the" to Sun and Moon
 
 		if(myPlanet === "Sun" || myPlanet === "Moon"){
 			$('#answer').html("If you were on the " + myPlanet + " you would weigh " + myNewWeight + " lbs!");
-			$('#planetHeader').html("Welcome to the " + myPlanet + "!!");
 
 		} 	else{
 				$('#answer').html("If you were on " + myPlanet + " you would weigh " + myNewWeight + " lbs!");
-				$('#planetHeader').html("Welcome to " + myPlanet + "!!");
 		}
 
 		//Adding gray background to answer field when it returns an answer
